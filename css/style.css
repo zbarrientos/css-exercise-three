@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -19,3 +23,19 @@ nav {
 .restaurant-list {
   padding-top: 50px;
 }
+
+.restaurant-list h1 {
+  font-size:2.3em;
+  color:#ff69b4;
+  width: 80%
+}
+
+.restaurant-list h3 {
+  font-size:1.5em;
+  color:#000;
+  width: 40%
+}
+
+.location:hover {
+    background-color: #ffff00
+  }
