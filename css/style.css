@@ -18,15 +18,18 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: black;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  line-height: 100%;
 }
 
 .restaurant-list h1 {
   font-size:2.1em;
   color:#ff69b4;
+  padding-bottom: 10px;
 }
 
 .restaurant-list h3 {
@@ -34,14 +37,16 @@ nav {
   color:#000;
 }
 
-.location:hover {
-    background-color: #ffff00;
-  }
-
 .location {
   width: 100%;
   padding: 10%;
+  background-color: grey;
+  border: 1px solid black;
   }
+
+.location:hover {
+  background-color: #ffff00;
+    }
 
 .content {
   width: 95%;
