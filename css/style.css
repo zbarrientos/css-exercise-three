@@ -25,17 +25,30 @@ nav {
 }
 
 .restaurant-list h1 {
-  font-size:2.3em;
+  font-size:2.1em;
   color:#ff69b4;
-  width: 80%
 }
 
 .restaurant-list h3 {
-  font-size:1.5em;
+  font-size:1.3em;
   color:#000;
-  width: 40%
 }
 
 .location:hover {
-    background-color: #ffff00
+    background-color: #ffff00;
+  }
+
+.location {
+  width: 100%;
+  padding: 10%;
+  }
+
+.content {
+  width: 95%;
+  float: left;
+  }
+
+.arrow {
+  width: 5%;
+  float: right;
   }
